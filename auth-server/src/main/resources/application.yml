@@ -1,0 +1,15 @@
+server:
+  port: 8282
+security:
+  oauth2:
+    authorization:
+      check-token-access: permitAll()
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+        http: DEBUG
+
+
+
